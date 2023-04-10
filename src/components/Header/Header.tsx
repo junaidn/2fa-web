@@ -11,7 +11,7 @@ export const Header = () => {
     <header className="header">
         <div className="header__container">
             <h3>2FA App</h3>
-            <IconButton icon={<FaPlus size={18} color="#f6989b" />} onClick={() => navigate(addNewServicePage)} />
+            <IconButton title="Add new service" icon={<FaPlus size={18} color="#f6989b" />} onClick={() => navigate(addNewServicePage)} />
         </div>
     </header>
   );
