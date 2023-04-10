@@ -1,0 +1,9 @@
+.icon-button {
+    border: 0;
+    background-color: $white;
+    cursor: pointer;
+    border-radius: 50%;
+    &:hover {
+        opacity: 0.7;
+    }
+}

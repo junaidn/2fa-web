@@ -7,14 +7,14 @@ import {Header} from './components/Header/Header';
 export const AppRouter = () => {
   return (
     <>
-      <Header />
-      <Layout>
-        <BrowserRouter>
+      <BrowserRouter>
+        <Header />
+        <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
-        </BrowserRouter>
-      </Layout>
+        </Layout>
+      </BrowserRouter>
     </>
   );
 };
