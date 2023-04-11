@@ -9,12 +9,13 @@ export class AuthCodeStore {
   }
 
   addCode(service: string): AuthCode[] {
-    this.authCodes.push({code: generateCode(), service, timer: 60});
+    this.authCodes.push({code: generateCode(), service, timer: 60, createdAt: Date.now()});
     return this.authCodes;
   }
 
   getCodes(): AuthCode[] {
-    return this.authCodes;
+    // eslint-disable-next-line id-length
+    return this.authCodes.slice().sort((a, b) => b.createdAt - a.createdAt);
   }
 
   updateTimerAndRegenrateCode(): AuthCode[] {
