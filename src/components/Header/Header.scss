@@ -5,7 +5,7 @@
     right: 0;
     left: 0;
     width: 100%;
- 
+
     &__container {
         margin: 0 20px;
         height: 60px;
@@ -13,8 +13,10 @@
         justify-content: space-between;
         align-items: center;
         white-space: nowrap;
-        h3 {
+        a {
+            font-size: 24px;
             color: $dustyGray;
+            font-weight: bold;
         }
     }
 }
