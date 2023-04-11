@@ -1,12 +1,6 @@
 import {makeAutoObservable} from 'mobx';
 import {generateCode} from '../utils/common';
 
-interface AuthCode {
-  code: string;
-  service: string;
-  timer: number;
-}
-
 export class AuthCodeStore {
   authCodes: AuthCode[] = [];
 

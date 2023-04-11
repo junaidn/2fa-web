@@ -1,7 +1,10 @@
-@import './media.scss';
-@import './colors.scss';
-@import './box-shadow.scss';
-@import './global.scss';
-@import '../components/IconButton/IconButton.scss';
-@import '../components/Header/Header.scss';
-@import '../components/Layout/Layout.scss';
+@import "react-circular-progressbar/dist/styles.css";
+@import "./media.scss";
+@import "./colors.scss";
+@import "./box-shadow.scss";
+@import "./global.scss";
+@import "../components/IconButton/IconButton.scss";
+@import "../components/Header/Header.scss";
+@import "../components/Layout/Layout.scss";
+@import "../components/AuthDetail/AuthDetail.scss";
+@import "../components/Home/Home.scss";

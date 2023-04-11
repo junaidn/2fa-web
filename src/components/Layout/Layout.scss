@@ -1,9 +1,8 @@
 .layout {
-    width: 50vw;
-    margin: 60px auto;
-    padding: 20px;
-
-    @include max(sm) {
-        width: 100%;
-    }
+  width: 40vw;
+  margin: 60px auto;
+  padding: 20px;
+  @include max(sm) {
+    width: 100%;
+  }
 }

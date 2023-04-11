@@ -1,0 +1,31 @@
+.auth-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100px;
+  border-radius: 14px;
+  padding: 8px;
+  box-shadow: $cardShadow;
+  color: $dustyGray;
+
+  &__code-detail {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+
+    & div {
+      display: flex;
+      flex-direction: column;
+      p {
+        font-size: 44px;
+        font-weight: bold;
+      }
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .spinner {
+    width: 50px;
+  }
+}

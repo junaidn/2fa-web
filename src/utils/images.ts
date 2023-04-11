@@ -1,1 +1,1 @@
-export const epicGame = '/static/images/epic-game.jpg';
+export const epicGameImage = '/static/images/epic-game.jpg';
