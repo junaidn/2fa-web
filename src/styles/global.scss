@@ -19,3 +19,13 @@ p {
   padding: 0;
   margin: 0;
 }
+
+.error-text {
+  color: $red;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.input-error {
+  border-color: $red !important;
+}

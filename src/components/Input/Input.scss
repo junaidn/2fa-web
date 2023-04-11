@@ -1,0 +1,15 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  &__label {
+    color: $dustyGray;
+    font-weight: bold;
+  }
+
+  & input {
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid $dustyGray;
+  }
+}
