@@ -8,12 +8,12 @@ export class AuthCodeStore {
     makeAutoObservable(this);
   }
 
-  addCode(service: string): AuthCode[] {
+  addService(service: string): AuthCode[] {
     this.authCodes.push({code: generateCode(), service, timer: 60, createdAt: Date.now()});
     return this.authCodes;
   }
 
-  getCodes(): AuthCode[] {
+  getServices(): AuthCode[] {
     // eslint-disable-next-line id-length
     return this.authCodes.slice().sort((a, b) => b.createdAt - a.createdAt);
   }

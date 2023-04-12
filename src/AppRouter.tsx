@@ -29,5 +29,5 @@ export const AppRouter = () => {
 };
 
 setInterval(() => {
-  store.getCodes().length > 0 && store.updateTimerAndRegenrateCode();
+  store.getServices().length > 0 && store.updateTimerAndRegenrateCode();
 }, 1000);

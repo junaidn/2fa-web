@@ -17,7 +17,7 @@ export const AddService: FC<AuthStore> = observer(({authStore}) => {
       return;
     }
     setError(false);
-    authStore.addCode(serviceName);
+    authStore.addService(serviceName);
     navigate(homePage);
   };
 
