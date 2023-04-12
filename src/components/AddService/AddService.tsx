@@ -22,7 +22,7 @@ export const AddService: FC<AuthStore> = observer(({authStore}) => {
   };
 
   return (
-    <div className="add-service">
+    <div className="add-service" data-testid="add-service-test">
       <h2>Add new service</h2>
       <form onSubmit={handleSubmit}>
         <Input

@@ -18,6 +18,7 @@ export const Input: FC<IProps> = ({
     <div className="input-container">
       <label className="input-container__label">{label}</label>
       <input
+        data-testid="input-test"
         className={isError ? 'input-error' : ''}
         type={type}
         placeholder={placeholder}

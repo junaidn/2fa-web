@@ -9,11 +9,11 @@ export const AuthDetail: FC<Omit<AuthCode, 'createdAt'>> = ({
   timer,
 }) => {
   return (
-    <div className="auth-detail">
+    <div className="auth-detail" data-testid="auth-detail-test">
       <div className="auth-detail__code-detail">
         <Image src={epicGameImage} />
         <div>
-          <span>{service}</span>
+          <span data-testid="auth-service-test">{service}</span>
           <p>{code}</p>
         </div>
       </div>
